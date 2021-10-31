@@ -4,3 +4,5 @@
 1. **Handwritten Digit Classification:** Classification of handwritten digits (the MNIST dataset), a very beginner friendly project in Computer Vision.
 2. **CIFAR10 Classification:** Classification of RGB images with classes such as bird, cat, horse, ship, automobile etc. 
 3. **Filtering:** Experimenting with various filters used to noise and denoise an image.
+4. **Facial Recognition:** Facial Recognition from various angles using Siamese Networks and One Shot Learning
+5. **Alzheimer's Detection:** Using brain scans to detect Alzheimer's in patients. 
