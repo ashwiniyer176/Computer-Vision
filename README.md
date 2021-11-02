@@ -7,3 +7,4 @@
 4. **Facial Recognition:** Facial Recognition from various angles using Siamese Networks and One Shot Learning
 5. **Alzheimer's Detection:** Using brain scans to detect Alzheimer's in patients. 
 6. **Fish Species Classification:** Using images of fishes taken from A Large Scale Fish Dataset, to classify fishes.
+7. **CIFAR10 with Hyperas:** Automated hyperparameter tuning using Keras on CIFAR10.
