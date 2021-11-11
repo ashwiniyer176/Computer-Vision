@@ -8,3 +8,4 @@
 5. **Alzheimer's Detection:** Using brain scans to detect Alzheimer's in patients. 
 6. **Fish Species Classification:** Using images of fishes taken from A Large Scale Fish Dataset, to classify fishes.
 7. **CIFAR10 with Hyperas:** Automated hyperparameter tuning using Keras on CIFAR10.
+8. **Next Frame Prediction:** Predicting the next frame based on the object's trajectory using CNN-LSTM.
