@@ -1,6 +1,5 @@
 # Detecting Alzheimer's from MRI Scans
-Alzheimer's disease is a progressive neurologic disorder that causes the brain to shrink (atrophy) and brain cells to die. Alzheimer's disease is the most common cause of dementia — a continuous decline in thinking, behavioral and social skills that affects a person's ability to function independently. The early signs of the disease include forgetting recent events or conversations. As the disease progresses, a person with Alzheimer's disease will develop severe memory impairment and lose the ability to carry out everyday tasks. The objective is to detect the various levels of Alzheimer's present in a patient using MRI scans. The model thus predicts the stage at which the patient is.
-
+Alzheimer's disease is a progressive neurologic disorder that causes the brain to shrink (atrophy) and brain cells to die. Alzheimer's disease is the most common cause of dementia — a continuous decline in thinking, behavioral and social skills that affects a person's ability to function independently. The early signs of the disease include forgetting recent events or conversations. As the disease progresses, a person with Alzheimer's disease will develop severe memory impairment and lose the ability to carry out everyday tasks. The objective is to detect the various levels of Alzheimer's present in a patient using MRI scans.
 ## Dataset
 
 The dataset used is the [Alzheimer's Dataset (4 Class of Images)](https://www.kaggle.com/tourist55/alzheimers-dataset-4-class-of-images) from Kaggle. The 4 class labels are:
@@ -14,9 +13,15 @@ The dataset used is the [Alzheimer's Dataset (4 Class of Images)](https://www.ka
 4.**Very Mild Demented**
 
 
-## Network Architecture - Convolutional Neural Networks
+## Client Model Architecture - Convolutional Neural Networks
 
-The network architecture used was a basic CNN model, with Max Pooling and ReLU Activation functions. The loss function, Cross Entropy, was provided with weights as the dataset used is an imbalanced one.
+The network architecture used was a basic CNN model, with Max Pooling and ReLU Activation functions. Input images are resized to an optimal size and then fed into the **Convolutional layer**. These images are converted to their pixel values, which can be imagined as a three-dimensional matrix for the purpose of visualization. The **Convolutional layer** has a kernel. This kernel is generally a small matrix of specified kernel size mxnx3 (3 for RGB images). 
+<br>
+
+**Rectified Linear Unit (ReLU)** is the activation layer used in CNNs.The activation function is applied to increase non-linearity in the CNN. Images are made of different objects that are not linear to each other.
+
+
+**Max Pooling:** A limitation of the feature map output of Convolutional Layers is that they record the precise position of features in the input. This means that small movements in the position of the feature in the input image will result in a different feature map. This can happen with re-cropping, rotation, shifting, and other minor changes to the input image. A common approach to addressing this problem from signal processing is called down sampling. This is where a lower resolution version of an input signal is created that still contains the large or important structural elements, without the fine detail that may not be as useful to the task.
 
 ## Future Work
 
