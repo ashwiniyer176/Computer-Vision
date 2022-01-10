@@ -1,7 +1,11 @@
 *.pyc
 *.ipynb_checkpoints
 __pycache__
-*zip
+*.zip
 Yolo Data
 *.h5
+*.png
+*.jpg
+*.jpeg
+*.pth
 yolov3.weights
