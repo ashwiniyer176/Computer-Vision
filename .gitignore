@@ -9,3 +9,4 @@ Yolo Data
 *.jpeg
 *.pth
 yolov3.weights
+*.xml
